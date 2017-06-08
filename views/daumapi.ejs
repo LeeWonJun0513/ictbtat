@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <% include ./header.ejs %> 
+        <% include ./header_api.ejs %>
+    </head>
+    
+    <body>
+        <% include ./top.ejs %>
+        <br>
+        <hr>
+        <% include ./searchmap_api.ejs %>
+        
+        <script type="text/javascript" src="//apis.daum.net/maps/maps3.js?apikey=64cf6e4084cb6764739eb3481a8a5c94&libraries=services">
+        </script>
+        
+        <script>
+            <% include ./function_api.ejs %>
+        </script>
+        <br>
+        <hr>
+        <% include ./footer.ejs %>
+    </body>
+</html>

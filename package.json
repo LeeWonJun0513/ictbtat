@@ -1,5 +1,5 @@
 {
-  "name": "LeeWonJun",
+  "name": "ictbtat",
   "version": "1.0.0",
   "email": "lwjun0513@gmail.com",
   "dependencies": {
@@ -7,4 +7,9 @@
     "ejs": "^2.5.6",
     "express": "^4.15.3"
   },
+   "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  }
+
 }
